@@ -1,0 +1,7 @@
+Task #4 Responses
+
+1.  I found that HSV format worked better than RGB format.
+    The color range I used was [110, 50, 50] to [130, 255, 255]
+2.  In general, the better the lighting, the better the detection function worked.
+3.  In general, the higher the brightness on my phone, the better the detection function worked.
+4.  In general, more concentrated forms of color that are less impacted by external lighting are more robust. So, the phone color swatch resulted in better detection than the coffee cup.
