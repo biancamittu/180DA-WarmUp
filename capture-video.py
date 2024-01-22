@@ -1,9 +1,10 @@
-# PROPERLY CAPTURES COFFEE CUP
+# PROPERLY CAPTURES PHONE
 
 """
 
 Improvements from provided OpenCV Object Tracking code (https://docs.opencv.org/4.x/df/d9d/tutorial_py_colorspaces.html):
 
+    - Adjusted HSV range to be more specific from the original code
     - Added contour detection and bounding boxes for better visualization
     - Displays original frame with highlighted blue areas
     - Enhanced user experience with improved visual feedback
@@ -26,7 +27,7 @@ while(1):
 
     # Define range of blue color in HSV
     lowerBlue = np.array([110, 50, 50])
-    upperBlue = np.array([130, 255, 255])
+    upperBlue = np.array([120, 255, 255])
 
     # Threshold the HSV image to get only blue colors
     mask = cv.inRange(hsv, lowerBlue, upperBlue)
