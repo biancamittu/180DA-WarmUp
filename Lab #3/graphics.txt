@@ -1,7 +1,6 @@
 To design graphics for my project, I will...
 
 - Plan the layout by determining the interface elements needed, such as buttons, sliders, and text fields
-- Create visual representations by design the golf course terrain, obstacles, and holes
-- Implement interactive elements to allow users to adjust shot angle, power, and club selection for each stroke
-Add feedback mechanisms: Provide real-time feedback on shot accuracy, distance, and score to enhance player engagement.
-Enhance aesthetics: Incorporate color schemes, textures, and animations to create an immersive and visually appealing experience for players.
+- Create visual representations by designing the golf course terrain, obstacles, and holes
+- Implement interactive elements to allow users to adjust shot angle and power
+- Enhance aesthetics by incorporating color schemes, textures, and animations to create an immersive and visually appealing experience for players
