@@ -1,0 +1,18 @@
+- Using MQTT, efficient and asynchronous communication is made possible through the publisher/subscriber model
+- However, MQTT can lack extensive security measures
+- I would expect a reasonable lag time to be between 0.1 and 1 second(s)
+- I do not personally prefer a different method of communication at this point, but that may change when we incorporate multiplayer functionality
+
+- Performance of the speech recognition takes a hit when the trigger words are not distinct enough from each other and sound similar
+
+- In noisy environments, the system becomes less sensitive to what the user is saying and it does not detect words with the same accuracy
+- To mitigate this external factor, users can utilize a microphone plug-in as opposed to just the built-in microphone on the computer
+
+- In Golf Wizards, we can use speech recognition to start the game, end the game, navigate around the main menu, and cast spells
+
+- Since the speech recognition plays a small factor in the grand scheme of our game, we would like it to be straightforward and easy to use
+
+- It needs to be fairly quick and accurate, so players can watch the impact of their spells in a timely manner
+- A missed recognition diminishes the “magical” aspect of the game, which plays a large role in the storyline, so it is important that our software is accurate
+
+- The speech recognition mostly impacts the graphics of the game, not hardware
